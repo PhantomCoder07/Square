@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    float a,area,peri;
+    printf("Enter square's side value: ");
+    scanf("%f",&a);
+    area=(a*a);
+    peri=4*a;
+    printf("The area of square: %.2f\n",area);
+    printf("The perimeter of square: %.2f\n",peri);
+    return 0;
+}
