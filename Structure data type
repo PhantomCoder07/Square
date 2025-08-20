@@ -1,0 +1,16 @@
+#include <stdio.h>
+struct square
+{
+    float a,area,peri;
+};
+int main()
+{
+    struct square sq;
+    printf("Enter square's side value: ");
+    scanf("%f",&sq.a);
+    sq.area=sq.a*sq.a;
+    sq.peri=4*sq.a;
+    printf("The area of square: %.2f\n",sq.area);
+    printf("The perimeter of square: %.2f\n",sq.peri);
+    return 0;
+}
